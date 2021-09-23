@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: aqua;
+  position: sticky;
+  top: 0px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  padding-left: 300px;
+  padding-right: 300px;
+  margin: 0;
+  align-items: center;
+  height: 100px;
+}
+
+li {
+  font-size: 35px;
+  color: white;
+  cursor: pointer;
+}
+
+li:hover {
+  transform: scale(1.1);
+}
+
+p,
+span,
+h2 {
+  cursor: default;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 300px;
+  padding-left: 300px;
+  background-image: url("home-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.myimage {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.myimage:hover {
+  transform: scale(1.2);
+}
+
+.home__article {
+  margin: 0;
+  color: white;
+  font-size: 25px;
+}
+
+.AboutMe {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.aboutme__article {
+  margin: 0;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.physics:hover {
+  cursor: pointer;
+  color: yellow;
+}
+
+h2 {
+  margin: 0;
+  font-size: 40px;
+}
+
+.Gallery {
+  margin-top: 50px;
+}
+
+.Gallery__subjects {
+  text-align: center;
+}
+
+.Gallery__subject {
+  font-size: 40px;
+}
+
+.Gallery__images {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Gallery__image {
+  height: 250px;
+  width: 250px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+}
